@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,25 +91,44 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -49,18 +136,140 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 900px;
+	margin: auto;
+	display: block;
+	padding: 40px;
+	border: 1px solid white;
+	padding-inline-start: 0%;
+
+
+
+}
+
+.button {
+	margin-bottom: 50px;
+	background: white;
+
+	width: 162px;
+	border: solid dimgrey;
+	padding: 8px 9px 9px;
+	display: block;
+	text-align: center;
+	font-family: 'https://fonts.googleapis.com/css?family=Bangers|Titillium+Web';
+
+}
+
+
+
+
+.button:hover {
+	background-color: white;
+	color: grey;
+	text-decoration: none;
+
+
+}
+
+header nav a {
+	display: inline-block;
+	margin: 30px 0;
+
+
+}
+
+header nav a {
+display: inline-block;
+	margin: 5px;
+	position: inline-block;
+	letter-spacing: 20px;
+	text-align: bottom;
+}
+
+
+h1 {
+	margin-inline-start: 0%;
+font-size: 70px;
+font-family: 'Bangers', cursive;
+letter-spacing: 20px;
+margin-bottom: 15px;
+}
+.divA {
+	text-align: end;
+	margin-top: auto;
+	text-decoration: none;
+
+
+}
+
+div h1{
+
+width: 10%;
+	display: inline-block;
+	vertical-align: 10%;
+	text-align: center;
+}
+
+
+
+.divB {
+
+
+	text-align: end;
+
+}
+
+a {
+	text-decoration: none;
+	margin: 0px 0;
+	text-align: end;
+}
+
+nav * {
+
+	display: flex;
+	margin: 92px 22px;
+
+
+}
+
+
+.section1 {
+	text-align: left;
+	border-top: 1px solid black;
+}
+
+
+div * {
+	color: black;
+	position: inherit;
+	display: fixed;
+}
+
+
+
+.section2 {
+	border-bottom: 1px solid black;
+}
