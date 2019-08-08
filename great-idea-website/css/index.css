@@ -141,6 +141,14 @@ table {
 
 html,
 body {
+	margin: 4px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: center;
+
 	height: 100%;
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -159,87 +167,47 @@ h5 {
 
 .container {
 	width: 900px;
-	margin: auto;
+	margin: 20%;
 	display: block;
-	padding: 40px;
+	padding: 48px;
 	border: 1px solid white;
 	padding-inline-start: 0%;
-
+	justify-content: space-between;
 
 
 }
 
-.button {
-	margin-bottom: 50px;
-	background: white;
-
-	width: 162px;
-	border: solid dimgrey;
-	padding: 8px 9px 9px;
-	display: block;
-	text-align: center;
-	font-family: 'https://fonts.googleapis.com/css?family=Bangers|Titillium+Web';
-
+button {
+	margin: 10px;
+	padding: 20;
 }
 
 
 
 
-.button:hover {
-	background-color: white;
-	color: grey;
-	text-decoration: none;
 
 
-}
 
-header nav a {
-	display: inline-block;
-	margin: 30px 0;
 
+
+
+
+
+body * {
+	margin: 10px;
 
 }
 
-header nav a {
-display: inline-block;
-	margin: 5px;
-	position: inline-block;
-	letter-spacing: 20px;
-	text-align: bottom;
-}
+button* {
 
-
-h1 {
-	margin-inline-start: 0%;
-font-size: 70px;
-font-family: 'Bangers', cursive;
-letter-spacing: 20px;
-margin-bottom: 15px;
-}
-.divA {
-	text-align: end;
-	margin-top: auto;
-	text-decoration: none;
-
-
-}
-
-div h1{
-
-width: 10%;
-	display: inline-block;
-	vertical-align: 10%;
-	text-align: center;
+	margin: 50px;
 }
 
 
 
-.divB {
 
 
-	text-align: end;
 
-}
 
 a {
 	text-decoration: none;
@@ -247,29 +215,205 @@ a {
 	text-align: end;
 }
 
-nav * {
+
+
+
+span .container1 {
+	margin: 10px;
 
 	display: flex;
-	margin: 92px 22px;
+
+	flex-direction: row;
+
+
+	flex-wrap: nowrap;
+
+	flex-wrap: wrap-reverse;
+
+	justify-content: space-between;
+}
+
+.item {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-direction: row;
+	border: 1px solid black;
+	background: lightgray;
 
 
 }
 
 
-.section1 {
-	text-align: left;
-	border-top: 1px solid black;
+
+
+
+.divColoumn {
+	margin: 12px;
+	display: flex;
+
+
 }
 
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	background: white;
+}
 
-div * {
+#header1{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	margin: 0 auto;
+	height: 50px; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.nav, #logo{
+	display: flex;
+	justify-content: center;
+}
+.nav{
+	width: 100%;
+	padding: 0px ;
+	border: 2px solid black;
+	margin: 0 auto;
+	background: cyan;
+
+}
+
+.header{
+	background-image: url("header-ing.png");
+	width: 100%;
+	padding: 20px;
+	margin: 100px 0px 0px 0px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#bold{
+	font-size: 50px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.button{
+	padding: 5px;
+	margin: 0px;
+	border: 2px black solid;
+	
 	color: black;
-	position: inherit;
-	display: fixed;
+}
+.button:hover{
+	color: pink;
+}
+#big{
+	margin: 5px;
+	padding: 5px;
+}
+
+
+.wrapper{
+	width: 100%;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: row;
+}
+.sec1{
+	max-width: 41%;
+	margin: 20px;
+	
+}
+.wrapper img{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
 }
 
 
 
-.section2 {
-	border-bottom: 1px solid black;
+.sec2{
+max-width: 29%;
+margin: 20px;
+}
+
+.paw{
+	margin: 20px;
+}
+.paw a{
+	color: orchid;
+}
+#legal{
+	text-align: center;
+}
+/* css for the services page */
+#header2{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	margin: 10px auto;
+	height: 50px; 
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: fixed;
+}
+.services-header{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	margin: 100px 0px 0px 0px;
+}
+.columns{
+  max-width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.infobox{
+	width: 46%;
+	height: 200px;
+	background: cyan;
+	border: 2px solid black;
+  margin-bottom: 20px
+}
+.infobutton{
+	background: gray;
+	color: pink'
+}
+.infobutton:hover{
+	color: rgb(43, 43, 37);
+}
+.bottom{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+	display: flex;
+	flex-wrap: wrap;
+}
+#bottext{
+	width: 50%;
+	padding: 20px;
+	margin: 0 auto;
+}
+#list{
+	padding-left: 20px;
+}
+#awesomeimage{
+	justify-content: right;
+	align-self: flex-start;
 }
