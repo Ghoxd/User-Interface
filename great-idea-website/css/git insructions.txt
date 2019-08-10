@@ -1,0 +1,12 @@
+First we forked the repo
+Then we cloned the repo - git clone URL
+Then we made some changes and ran a git status
+Then we staged the changes using git add .
+Then we committed the changes using  git commit -m “our message”
+Then we need to use git push to publish our local commits
+Now we should be able to see these changes
+You can check the status in between by using git status
+You will repeat this process hundreds of thousands of times in your careers so you will get really good at this
+:derpygitpush:
+1
+
